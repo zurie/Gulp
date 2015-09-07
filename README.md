@@ -1,0 +1,19 @@
+# Gulp
+Default Gulp Project
+
+    "body-parser": "^1.7.0",
+    "browser-sync": "",
+    "express": "^4.8.8",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.3.4",
+    "gulp-connect": "^2.0.6",
+    "gulp-filter": "latest",
+    "gulp-header": "latest",
+    "gulp-livereload": "^2.1.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^0.7.3",
+    "gulp-uglify": "^1.0.1",
+    "gulp-util": "^3.0.1",
+    "node-bourbon": "^1.2.3",
+    "node-neat": "^1.3.0",
+    "tiny-lr": "^0.1.1"
