@@ -1,0 +1,27 @@
+@import "bourbon";
+@import "neat";
+
+$primary: #ccff00;
+$secondary: black;
+
+html {
+  @include linear-gradient($primary,$secondary);
+  height: 100%;
+}
+body {
+  #container {
+    @include outer-container();
+  }
+  aside {
+    @include span-columns(4 of 12);
+  }
+  section {
+    @include span-columns(8 of 12);
+  }
+  h1 {
+    background: $secondary;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
